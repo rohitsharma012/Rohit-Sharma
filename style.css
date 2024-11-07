@@ -1,0 +1,60 @@
+/* .btn:hover{
+    background-color: #1DBF73;
+    border: 3px solid white;
+    
+} */
+
+p{
+    color: white;
+    font-size:60px ;
+    margin: 150px 0px 0px 30px;
+    animation: rohit 2s ease-in;
+    display: inline-block;background-color: transparent;
+    
+}
+
+@keyframes rohit {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 100;
+        }
+}
+
+.container3{
+    /* background-image: url("f1.JPG.jpg"); */
+    margin-top: 20px;
+    border-radius: 4px;
+    height: 450px;
+    background-size: cover;
+    background: content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    animation: moni 10s infinite;
+    
+}
+
+@keyframes moni {
+    0%{
+        background-image: url("p1.jpg");
+    }
+    25%{
+        background-image: url("p2.jpg");
+    }
+    50%{
+        background-image: url("p3.jpg");
+    }
+    75%{
+        background-image: url("p4.jpg");
+    }
+    100%{
+        background-image: url("p5.jpg");
+    }
+}
+
+.container2 :hover{
+    color: #1DBF73;
+}
